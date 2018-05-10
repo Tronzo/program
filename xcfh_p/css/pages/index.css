@@ -1,0 +1,61 @@
+.layout-mainL{ float: left; width: 280px; }
+.layout-mainR{ float: right; width: 760px; }
+
+.organization{ min-height: 102px; padding:30px 20px 10px; background: #fff; }
+.organization-info{ width: 145px; margin-top: 20px; margin-left: 15px; }
+.organization-info h1{ font-size: 15px; color: #574a73; text-decoration: underline; }
+.organization-info p{ color: #a7a2b3; font-size: 12px; }
+.organization-img{ width: 80px; height: 80px; border-radius: 10px; box-shadow: 0 0 10px -2px #878787; overflow: hidden; }
+.organization-img img{ border-radius: 10px; }
+.vip_benefits{ width: 146px; }
+
+.members{ margin-top: 20px; background: #fff; }
+.members-title{ padding: 20px; border-bottom: 1px solid #e7e7e7; }
+.members-title h2{ color: #444444; font-size: 18px;}
+.members-title h2:before{ content: " "; display: inline-block; margin-right: 10px; width: 4px; height: 18px; background: #7474f1; vertical-align: middle; margin-top: -5px; }
+.mem-edit{ margin-top: 5px; color: #888888; font-size: 14px;  }
+
+.members-list{ padding: 20px; }
+.members-list ul{ margin-left: -15px; }
+.members-list li{ position: relative; float: left; width: 70px; height: 30px; margin-left: 15px; margin-bottom: 15px; line-height: 30px; color: #7474f1; font-size: 12px; text-align: center; background: #f3f3ff; }
+/*.members-list li:before{ content: " "; display: block; width: 18px; height: 18px; }*/
+
+.indexList{ margin-left: -20px; }
+.indexList li{ position: relative; float: left; width: 240px; height: 265px; margin-bottom: 20px; margin-left: 20px; background: #fff; box-sizing: border-box; -webkit-box-sizing: border-box; }
+.indexList li .courseType{ z-index: 2; position: absolute; display: block; width: 36px; height: 30px; left: 10px; top: 0; background: url(../../images/xcfh-icon.png) no-repeat; background-position: -10px -10px; color: #fff; font-size: 8px; text-align: center; white-space: nowrap; }
+.indexList li .courseType i{ font-size: 12px; display: block; width: 48px; height: 30px; margin: auto; margin-top: 0; margin-left: -7.5px; transform: scale(0.66); -webkit-transform: scale(0.66); }
+.indexList li.gkk .courseType{ background-position: -10px -10px; }
+.indexList li.kwsj .courseType{ background-position: -54px -10px; }
+.indexList li.jpk .courseType{ background-position: -98px -10px; }
+.indexList li .intro{ padding: 16px; }
+.indexList li a,.actimg{ display: block; }
+.indexList li .actimg{ width: 240px; height: 144px; }
+.indexList li p{ font-size: 14px; color: #333; }
+.indexList li:hover{ outline: 1px solid #7474f1 }
+.indexList li:hover p{ color: #8b8bf3; }
+.indexList li .time{ padding-top: 10px; color: #bebaba; font-size: 12px; }
+.indexList li .time span{ color: #888; }
+.indexList li .status{ padding-top: 10px; font-size: 12px; }
+.indexList li .status .nums{ float: right; color: #bebaba; }
+.indexList li .status .type:before{ content: " "; display: inline-block; width: 6px; height: 6px; margin-right: 5px; border-radius: 3px; background: #bebaba; color: #888; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

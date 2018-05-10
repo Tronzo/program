@@ -1,0 +1,46 @@
+*,html{ margin:0; padding:0;}
+body{ font-size:14px; font-family:微软雅黑;font-style:normal; background: #f6f6f6;}
+a{ text-decoration:none}
+a,a:hover{  transition:background 0.5s linear;-webkit-transition:background 0.5s linear;-moz-transition:background 0.5s linear;-o-transition:background 0.5s linear;}
+em, i{font-style: normal;}
+ul, ol, li{list-style: none;}
+img{ border:none;vertical-align:middle;}
+input,select,textarea{outline:none;border:none;background:none;}
+textarea{resize:none;}
+p{line-height:22px;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*+height:1%;}
+.position-re{position:relative;}
+.none{ display: none; }
+.xcfh-icon{ display: inline-block; background: url(../images/xcfh-icon.png) no-repeat; }
+.head,.layout-main{width: 1080px;margin:auto;}
+.layout-main{ margin-top: 50px; }
+/***************header********************/
+.logo{ margin-top: 3px; }
+.header{ height: 45px; background: #fff; box-shadow: 0 3px 6px #e8e8e8; }
+
+.search-wrap{ position: relative; width: 200px; height: 30px; }
+.search{ width: 200px; height: 30px; margin-top: 6px; padding: 0 10px; border-radius: 15px; background: #f1eff4; box-sizing: border-box; }
+.search-icon{ position: absolute; right: 13px; top: 13px; width: 16px; height: 16px; background-position: -10px -130px; }
+.login{ margin-left: 20px; margin-top: 12px; }
+.login-icon{ width: 14px; height: 14px; background-position: -35px -128px; }
+.login a{color: #7474f1;}
+
+.footer p{ text-align: center; color: #888888; }
+
+
+
+/*****************************************/
+
+
+
+
+
+
+
+
+
+
+

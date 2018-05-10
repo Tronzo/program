@@ -1,0 +1,25 @@
+.active-banner{ position: relative; padding: 20px; background: #fff; }
+.active-banner a.share{ display: block; position: absolute; right: 20px; top: 20px; width: 14px; height: 18px; }
+.active-banner a.share i{ display: block; width: 16px; height: 18px; background-position: -60px -130px; }
+.active-banner .banner{ display: block; width: 416px; height: 250px; }
+.active-banner .activeInfo{ width: 456px; margin-left: 52px; }
+.activeInfo .title{ font-size: 16px; }
+.activeInfo .title em{ margin-right: 8px; color: #e74e6e; font-weight: bold; }
+.activeInfo .title h1{ display: inline-block; color: #333; font-size: 16px; }
+.site{ margin-top: 20px; font-size: 12px; color: #bebaba; }
+.site span i{ color: #888; }
+.activeInfo .ps{ padding-top: 20px; color: #ed8719; font-size: 12px; }
+.countDown{ margin-top: 30px; font-size: 12px; color: #888; }
+.price{ margin-top: 20px; font-size: 12px; color: #888; }
+.price em{ font-size: 20px; font-weight: bold; color: #f30000; text-decoration: line-through; }
+{ color: #ed8719; }
+
+
+
+
+
+
+
+
+
+
