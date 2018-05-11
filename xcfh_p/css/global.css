@@ -1,11 +1,17 @@
 *,html{ margin:0; padding:0;}
 body{ font-size:14px; font-family:微软雅黑;font-style:normal; background: #f6f6f6;}
 a{ text-decoration:none}
-a,a:hover{  transition:background 0.5s linear;-webkit-transition:background 0.5s linear;-moz-transition:background 0.5s linear;-o-transition:background 0.5s linear;}
+a,a:hover{  
+	transition:background 0.2s linear;
+	-webkit-transition:background 0.2s linear;
+	-moz-transition:background 0.2s linear;
+	-o-transition:background 0.2s linear;
+}
 em, i{font-style: normal;}
 ul, ol, li{list-style: none;}
 img{ border:none;vertical-align:middle;}
 input,select,textarea{outline:none;border:none;background:none;}
+div,input,i{ box-sizing: border-box; -webkit-box-sizing: border-box; }
 textarea{resize:none;}
 p{line-height:22px;}
 .fl{float: left;}
@@ -17,6 +23,8 @@ p{line-height:22px;}
 .xcfh-icon{ display: inline-block; background: url(../images/xcfh-icon.png) no-repeat; }
 .head,.layout-main{width: 1080px;margin:auto;}
 .layout-main{ margin-top: 50px; }
+.cmtitle:before{ content: " "; display: inline-block; width: 3px; height: 15px; margin-top: -2px; background: #7474f1; vertical-align: middle; }
+.bor{ border: 1px solid #e7e7e7; }
 /***************header********************/
 .logo{ margin-top: 3px; }
 .header{ height: 45px; background: #fff; box-shadow: 0 3px 6px #e8e8e8; }
@@ -28,6 +36,7 @@ p{line-height:22px;}
 .login-icon{ width: 14px; height: 14px; background-position: -35px -128px; }
 .login a{color: #7474f1;}
 
+.footer{ padding: 10px 0 20px; }
 .footer p{ text-align: center; color: #888888; }
 
 

@@ -1,4 +1,4 @@
-.active-banner{ position: relative; padding: 20px; background: #fff; }
+.active-banner{ position: relative; padding: 20px; background: #fff; border: 1px solid #e7e7e7; }
 .active-banner a.share{ display: block; position: absolute; right: 20px; top: 20px; width: 14px; height: 18px; }
 .active-banner a.share i{ display: block; width: 16px; height: 18px; background-position: -60px -130px; }
 .active-banner .banner{ display: block; width: 416px; height: 250px; }
@@ -13,10 +13,56 @@
 .price{ margin-top: 20px; font-size: 12px; color: #888; }
 .price em{ font-size: 20px; font-weight: bold; color: #f30000; text-decoration: line-through; }
 { color: #ed8719; }
+.ai-button{ margin-top: 10px; }
+.ai-button a{ display: block; float: left; width: 130px; height: 46px; margin-right: 20px; line-height: 46px; color: #fff; text-align: center; font-size: 14px; }
+.ai-button a.course-sign{background: #7474f1;}
+.ai-button a.wx-sign{background: #6eb446;}
+.ai-button span{ margin-top: 3px; font-size: 12px; color: #888; line-height: 20px; }
 
+.active-content{ margin-top: 20px; margin-bottom: 100px; }
+.activeContentL{ width: 760px; padding: 20px; background: #fff; border: 1px solid #e7e7e7; box-sizing: border-box; -webkit-box-sizing: border-box; }
+.organizer{ padding: 10px; background: #f5f5f5; }
+.organizer>div{ min-height: 30px; }
+.organizer>div:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.organizer .org{ display: block; float: left; width: 110px; padding-top: 3px; color: #888; text-align: right; }
+.organizer-name .name,.intro .word{ float: left; width: 586px; color: #444; }
+.organizer-name .name span{ float: left; }
+.organizer-name .name span i{ display: inline-block; width: 30px; height: 30px; border: 3px solid #fff; overflow: hidden; border-radius: 15px; box-sizing: border-box; -webkit-box-sizing: border-box; vertical-align: middle; }
+.intro{ margin-top: 10px; }
+.name span i img{ width: 100%; height: 100%; }
+.activeDetail{ margin-top: 30px; }
+.activeDetail .content{ padding-top: 20px; }
 
+.activeContentR{ width: 290px; }
+.cmtitle.dtit{ padding: 30px 0 0; font-size: 20px; color: #444; font-weight: bold; }
+.cmtitle.dtit:before{ height: 20px; margin-top: -3px; margin-right: 15px; }
+.relateCourse{ background: #fff; }
+.relateCourse ul{ padding:0 20px 30px; }
+.relateCourse li{ margin-top: 30px; }
+.relateCourse li:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.relateCourse li .courseImg{ position: relative; float: left;width: 116px; height: 70px; }
+.relateCourse li .courseImg img{ width: 116px; height: 70px; }
+.relateCourse li .msg{ float: left; width: 110px; margin-left: 20px; margin-top: 2px; }
+.msg .courseTit{ height: 36px; font-size: 14px; color: #444; font-weight: normal; overflow-y: hidden; }
+.msg p{ height: 20px; padding-top: 10px; color: #888; font-size: 12px; overflow: hidden; }
 
+.writeComment{ float: right; margin-top: 5px; text-decoration: underline; font-size: 14px; color: #444; font-weight: normal; }
+.comment-icon{ width: 15px; height: 14px; background-position: -297px -130px; vertical-align: middle; }
+.cmtList{ padding-top: 10px; }
+.cmtItem{ margin-top: 15px; padding-left: 38px; }
+.reply{ float: right; color: #fa4cb1; }
+.cmtItem-head .userState{ margin-left: -38px; }
+.cmtItem-head{ font-size: 12px; color: #bcbcbc; }
+.cmtItem-head i.avatar{ display: inline-block; width: 30px; height: 30px; border-radius: 15px; border: 2px solid #fff; overflow:hidden; vertical-align: middle; }
+.cmtItem-head i.avatar img{ width: 100%; height: 100%; }
+.backName .time{ color: #bcbcbc; }
+em.uname{ max-width: 100px; margin-right: 5px; color: #7474f1; text-overflow: ellipsis; overflow: hidden; }
+em.uname.oth{ margin-left: 5px; }
+.cmtItem-body{ margin-top: 10px; color: #444; }
 
+.cmtItem-back{ margin-top: 10px; padding: 10px; background: #e7e7e7; color: #444; }
+.cmtItem-backBody{ margin-top: 10px; }
+.moreComment{ margin-top: 10px; display: block; text-align: center; color: #8e8e8e; }
 
 
 
